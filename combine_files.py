@@ -10,7 +10,7 @@ This script combines files with the same extension.
 2)complete the names of folder and file in lines 13,14 and 17
 """
 import os
-name=open('name.txt','a') #in place of name.xx enter the name and file extension which will be created 
+name=open('name.txt','a') #in place of name.xx enter the name and extension of file which will be created 
 folders=os.listdir('folder') #in place of folder enter the name of folder that contains the files to combine
 licznik=len(folders)
 os.chdir('folder') #in place of folder enter the name of folder that contains the files to combine
